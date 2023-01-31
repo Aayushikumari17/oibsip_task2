@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+html{
+    font-size: 0.9rem;
+}
+*{
+    padding: 0px;
+    color: white;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    /* padding: 20px; */
+    margin-top: 20px;
+    background-color: rgba(58, 5, 77, 0.913);
+}
+
+.container-1{
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    /* border: 3px solid black; */
+}
+.flex-container{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    display: flex;
+    width: 70%;
+   flex-direction: row;
+}
+
+.flex-item-1{
+    display: flex;
+    /* flex-flow: column wrap; */
+    width: 60%;
+    justify-content: flex-end;
+    position: relative;
+    /* border: 5px solid green; */
+}
+.flex-item-2{
+    flex: 3;
+}
+
+.img-abi{
+   height: 500px; 
+   /* margin-left: 20%;  */
+   align-self: flex-end;
+}
+.icon-header{
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    font-size: 2rem;
+    /* position: absolute; */
+}
+.elements{
+    position: absolute;
+    bottom: 80px;
+    left: 0px;
+    align-self: flex-end;
+}
+.Carlos, .Mendoza{
+    position: absolute;
+    left: 0px;
+    font-size: 5rem;
+    font-weight: bold;
+}
+.Carlos{
+    top: 10rem;
+}
+.Mendoza{
+    top: 14rem;
+}
+
+.Mendoza span{
+    
+    color: black;
+    border-bottom: 7px solid;
+    border-color: rgb(227, 167, 16);
+}
+
+.nav{
+    display: flex;
+}
+
+.nav div{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.7rem;
+    color: white;
+    font-weight: 100;
+}
+
+.intro{
+    margin-top: 50px;
+    font-size: 15px;
+    color: grey;
+}
+
+.intro-title{
+    margin-top: 30px;
+    font-size: 2rem;
+}
+
+.intro-discription{
+    margin-top: 30px;
+    color: gray;
+    font-size: 0.9rem;
+}
+
+.my-story{
+    margin-top: 50px;
+    color: orange;
+    text-decoration-line: underline ;
+}
+
+
+.container-2{
+    /* height: 300px; */
+    display: flex;
+    padding: 3rem 15%;
+    gap: 10%;
+    background-color: rgba(49, 4, 66, 0.923);
+}
+.container-2 > div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container-2 div .contact{
+    font-size: 15px;
+    color: grey;
+
+}
+
+.cont-2-title-1, .cont-2-title-2{
+    font-size: 2rem;
+}
+
+.cont-2-discription-1, .cont-2-discription-2{
+    color: gray;
+    font-size: 0.9rem;
+}
+
+.container-2 div .email{
+    color: orange;
+    font-weight: bold;
+}
+.cont-2-client{
+    display: flex;
+}
+.cont-2-client .year, .cont-2-client .clients{
+    font-size: 3rem;
+    color: orange;
+    font-weight: bold;
+}
+.cont-2-client .year-text, .cont-2-client .cliets-text{
+    margin-left: 5px;
+    font-size: 1rem;
+    align-self: flex-end;
+    padding: 2px;
+}
+.container-2 div .empty{
+    height: 150px;
+}
+
+.container-3{
+    /* width: 100%; */
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.container-3 .box-collection{
+    display: flex;
+    gap: 8%;
+    position: absolute;
+    top: -100px;
+}
+
+.box-collection .box{
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: rgba(55, 37, 61, 0.903);
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.box .projects{
+    font-size: 12px;
+    color: #c0c0c0;
+}
+.box-collection .box:hover{
+    cursor: pointer;
+    background-color: rgba(215, 132, 8, 0.784);
+    transform: 0.3;
+}
+
+.container-4{
+    margin-top:150px;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: grid;
+    grid-template-areas: 
+     "a b"   
+     "c b"   
+     "c d"   
+     ". d"   ;
+    gap: 50px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.container-4 .content{
+    grid-area: a;
+}
+.container-4 .BeServer{
+    grid-area: b;
+    align-self: flex-end;
+}
+.container-4 .Seone{
+    grid-area: c;
+}
+.container-4 .Energetic{
+    grid-area: d;
+}
+
+.container-4 .port{
+    margin: 15px 0px;
+    font-size: 15px;
+    color: grey;
+}
+.container-4 .portfoliyo-text{
+    margin-top: 30px;
+    font-size: 2rem;
+}
+
+.container-4 .portfoliyo-description{
+    padding-right: 20px;
+    margin-top: 30px;
+    color: rgba(128, 128, 128, 0.797);
+    font-size: 0.9rem;
+}
+
+.container-4 .explore-more{
+    margin: 30px 0px;
+    color: orange;
+    font-weight: bold;
+} 
+
+.container-4 .BeServer > img, .container-4 .Seone > img, .container-4 .Energetic > img {
+    border-radius: 15px;
+    box-shadow: 20px 20px 500px grey;
+}
+
+.container-5 {
+    background-color: rgba(49, 4, 66, 0.923);
+    display: grid;
+    grid-template-areas: 
+    "news blog "
+    "img profile";
+    grid-template-columns: min-content 50%;
+    padding: 8% 15%;
+    margin: 30px 0px;
+    gap: 50px 70px;
+    justify-content: center;
+}
+
+.container-5 .news{
+    grid-area: news;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.container-5 .blog{
+    grid-area: blog;
+    display: grid;
+    grid-template-columns: 85px 1fr 30px;
+    gap: 40px 30px;
+}
+.blog .blog-date{
+    width: max-content;
+    color: silver;
+
+}
+.container-5 .img img{
+    grid-area: img;
+    height: 300px;
+    width: 350;
+    border-radius: 10px;
+}
+.container-5 .profile{
+    grid-area: profile;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.profile .profile-des{
+    font-size: 1.5rem;
+    text-align: justify;
+}
+/* .profile .colon{
+    font-size: 5rem;
+} */
+.profile .profile-name div{
+    font-size: 1rem;
+}
+.profile .profile-name span{
+    font-size: 0.8rem;
+    color: gray;
+}
+.profile .end-line-profile{
+   display: flex;
+}
+.profile .end-line-profile hr{
+   width: 60px;
+   background-color: orange;
+   color: yellow;
+}
+
+.container-6{
+    display: flex;
+    padding: 2rem 15%;
+    margin: 4rem;
+    justify-content: center;
+    gap: 30px;
+}
+
+.container-6 .col-1, .container-6 .col-2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.container-6 .col-1{
+    flex-basis: 40%;
+}
+.container-6 .col-{
+    flex: 1;
+}
+.your-project{
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.your-project-desc{
+    color: rgba(128, 128, 128, 0.797);
+    font-size: 0.9rem;
+}
+
+
+.col-2 div .input{
+    border: none;
+    background:none;
+    border-bottom: 2px solid rgb(81, 75, 75);
+}
+.col-2 div .input:focus{
+    outline: none;
+}
+
+.col-1 .email{
+    margin: 30px 0px;
+    color: orange;
+    font-weight: bold;
+}
+
+.container-7{
+    margin: 7rem 15%;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    gap: 13px;
+}
+
+.container-7 .emoji{
+    font-size: 4rem ;
+}
+.container-7 .scrooling-thanks{
+    font-size: 0.9rem ;
+}

@@ -1,0 +1,101 @@
+@media screen and (max-width: 991px){
+    
+    html{
+        font-size: 0.8rem;
+    }
+    .img-abi{
+        height: 400px;
+    }
+    .Carlos, .Mendoza{
+        font-size: 2.9rem;
+    }
+    .flex-container{
+        width: 90%;
+        margin: 0px;
+    }
+    .flex-item-1{
+        width: 50%;
+    }
+    .container-2{
+        padding: 3rem 7%;
+    }
+    .container-4{
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+    .container-5{
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+    .container-6{
+        padding: 0px;
+        margin: 7%;
+    }
+    .container-6 .col-1,.container-6 .col-2{
+        flex-basis: 45%;
+    }
+
+
+}
+
+@media screen and (max-width: 835px) and (max-width: 785){
+    html{
+        font-size: 0.6rem;
+    }
+    .img-abi{
+        height: 300px;
+    }
+    .Carlos, .Mendoza{
+        font-size: 3.6rem;
+    }
+    .flex-container{
+        width: 90%;
+        margin: 0px;
+    }
+    .intro{
+        margin-top: 50px;
+        font-size: 15px;
+        color: grey;
+    }
+    
+    .intro-title{
+        margin-top: 15px;
+    }
+    
+    .intro-discription{
+        margin-top: 15px;
+    }
+    
+    .my-story{
+        margin-top: 20px;
+    }
+    
+    .flex-item-1{
+        width: 50%;
+    }
+    .container-2{
+        padding: 3rem 7%;
+    }
+    .container-4{
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+    .grid-img{
+        width: 250px;
+        height: 300px;
+    }
+    
+
+    .container-5{
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+ 
+    .discription-content{
+        text-align: justify;
+        font-size: 1.2rem;
+    }
+    .container-4 .portfoliyo-description {
+        font-size: 1.2rem;
+    }
+}
